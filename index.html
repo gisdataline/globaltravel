@@ -35,7 +35,7 @@ $('#layer0').vectorMap({
     }]
   },
   onRegionLabelShow: function(e, el, code){
-    el.html(el.html()+' (Arrivals-tourist(thousand-2011): - '+gdpData[code]+')');
+    el.html(el.html()+' (Arrivals-tourist(thousand-2011): - '+ worldData[code]+')');
   }
 });
 </script>
@@ -46,8 +46,7 @@ Discription: the navbar with 50% opacity
 <div id="layer1">
  <div class="navbar navbar-inverse navbar-fixed-top">
       <div class="navbar-inner">
-        <div class="container">
-          
+        <div class="container">         
           <a class="brand" href="./index.html">Gobal Travel</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
